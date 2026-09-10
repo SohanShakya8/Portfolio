@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: beige;
+  color: black;
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+nav, header, section{
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+nav a {
+  color: #0b2c56;
+  text-decoration: wavy;
+  
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
